@@ -1,0 +1,1255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+body{
+     background-color: black;
+}
+.bgimg{
+    background-image: url(/Nimg/nbg3.png);
+    width: 100%;
+    height: 88vh;
+    border-bottom: 8px solid rgb(51, 51, 51);
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+}
+.logo img{
+    position: absolute;
+    top: 2vh;
+    left: 10vw;
+    width: 10%;
+    height: 5%;
+}
+.bgimg .top .selector{
+    padding-top: 1%;
+    padding-right: 12%;
+}
+.selector #language{
+    background: none;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+.selector #language:hover{
+    cursor: pointer;
+    background-color: rgb(131, 131, 131);
+}
+.selector .btn{
+    background: red;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: darkred;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 8rem;
+    padding-bottom: 11rem;
+    font-size: 1.3rem;
+    width: 100%;
+    height: auto;
+}
+.container h1{
+    padding-top: 10px;
+    font-weight: 900;
+}
+.container p{
+    padding-top: 15px;
+    font-size: 1.5rem;
+}
+.container h3{
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.login #loginbox{
+    padding: 18px 7%;
+    border-radius: 2px;
+    background: #00000082;
+    border: 1px solid #ffffff75;
+}
+.login #loginbox::placeholder{
+    color: #fff;
+    font-size: 1rem;
+
+}
+.login .btn2{
+    background: red;
+    padding: 15px 37px;
+    border-radius: 3px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.login .btn2:hover{
+    cursor: pointer;
+    background-color: darkred;
+}
+.container2{
+    display: flex;
+    border-bottom: 8px solid rgb(50, 50, 50);
+    width: 100%;
+    padding-bottom: 6vh;
+    padding-top: 6vh;
+}
+.container2 .para2{
+    width: 50%;
+    padding-left: 5rem;
+    font-size: 1.5rem;
+    padding-top: 11rem;
+    padding-bottom: 10rem;
+}
+.container2 .img2{ 
+    width: 50%;
+    min-height: auto;
+    text-align: left;
+}
+.container2 .img2 img{
+    width: 80%;
+    padding-top: 11vh;
+    height: 65vh;
+    padding-left: 5vw;
+
+}
+.container3{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-bottom: 8px solid rgb(52, 52, 52);
+}
+.container3 .para3{
+    width: 44%;
+    font-size: 1.3rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.container3 .img3{
+    width: 50%;
+    text-align: right;
+}
+.container3 .img3 img{
+    width: 90%;
+    padding-left: 2vw;
+    height: 75vh;
+    padding-bottom: 6vh;
+    padding-top: 3vh;
+}
+.container4{
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-bottom: 8px solid rgb(52, 52, 52);
+}
+.container4 .para4{
+    font-size: 1.3rem;
+    padding-top: 10rem;
+    padding-left: 6rem;
+}
+
+.container4 .img4{
+    width: 50%;
+    text-align: right;
+    padding-bottom: 3rem;
+}
+.container4 .img4 img{
+    width: 80%;
+    height: 65vh;
+    padding-top: 4rem;
+}
+.container5{
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-bottom: 8px solid rgb(52, 52, 52);
+}
+.container5 .para5{
+    font-size: 1.3rem;
+    padding-top: 7rem;
+}
+
+.container5 .img5{
+    width: 50%;
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+.container5 .img5 img{
+    width: 75%;
+    height: 60vh;
+}
+.container6{
+    display: flex;
+    border-bottom: 8px solid rgb(51, 51, 51);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.container6 h1{
+    font-size: 35px;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.qbox {
+    background: #333333;
+    width: 70%;
+    height: 10vh;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: inherit;
+    transition: all 0.3s;
+}
+
+.qbox:hover {
+    background: #515151;
+}
+.qbox2 {
+    background: #333333;
+    width: 70%;
+    height: 10vh;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: inherit;
+    padding-left: 30px;
+    transition: all 0.3s;
+}
+
+.qbox2:hover {
+    background: #515151;
+}
+.qbox3 {
+    background: #333333;
+    width: 70%;
+    height: 10vh;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: inherit;
+    padding-left: 30px;
+    transition: all 0.3s;
+}
+
+.qbox3:hover {
+    background: #515151;
+}
+
+.qbox:hover {
+    background: #515151;
+}
+.qbox4 {
+    background: #333333;
+    width: 70%;
+    height: 10vh;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: inherit;
+    transition: all 0.3s;
+}
+
+.qbox4:hover {
+    background: #515151;
+}
+.qbox5 {
+    background: #333333;
+    width: 70%;
+    height: 10vh;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: inherit;
+    transition: all 0.3s;
+}
+
+.qbox5:hover {
+    background: #515151;
+}
+.qbox6 {
+    background: #333333;
+    width: 70%;
+    height: 10vh;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: inherit;
+    transition: all 0.3s;
+}
+
+.qbox6:hover {
+    background: #515151;
+}
+.createbox{
+    font-weight: 350;
+    font-size: 22px;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+.createbox p{
+    font-weight: 500;
+    font-size: 15px;
+}
+.signup{
+    padding-top: 4%;
+    padding-left: 10%;
+}
+#signupbox{
+    color: #fff;
+    background: #303030d2;
+    width: 60%;
+    height: 7vh;
+    border: 1px solid #ffffff8b;
+    border-radius: 3px;
+    padding: 0px 15px;
+    font-size: 15px;
+}
+.btns2{
+    background: red;
+    padding: 12px 29px;
+    border-radius: 3px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+.btns2:hover{
+    cursor: pointer;
+    background-color: darkred;
+}
+.links {
+    color: #ffffffa1;
+    padding-top: 2%;
+}
+.links p{
+  font-size: .9rem;
+    width: 42%;
+    color: #ffffffc7;
+    text-align: center;
+}
+
+.links a {
+    color: #ffffffa1;
+    position: relative;
+    left: .5vw;
+}
+
+.tabs{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 35vh;
+    padding-top: 2rem;
+}
+.tabs ul li a{
+font-size: .85rem;
+color: #ffffffc7;
+}
+.tabs ul li {
+    line-height: 35px;
+}
+.selector2{
+       width: 30%;
+    text-align: center;
+    padding-bottom: 10vh;
+}
+.selector2 #language2{
+    background: none;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+.selector2 #language2:hover{
+    cursor: pointer;
+    background-color: rgb(131, 131, 131);
+}
+.selector2 a{
+    font-size: 0.9rem;
+    text-align: center;
+    width: 30%;
+    color: #ffffffc7;
+}
+@media (min-width:1240px) and (max-width:1490px){
+    .links p {
+        left: 12rem;
+    }
+    .selector2 {
+        left: 12rem;
+    }
+}
+
+@media (max-width:1026px){
+    .links p {
+        left: 7rem;
+    }
+    .selector2 {
+        left: 7rem;
+    }
+    .container4 .para4 {
+        font-size: 1rem;
+}
+.container4 .img4 img {
+    width: 78%;
+    height: 53vh;
+}
+.container3 .para3 {
+    font-size: 1rem;
+}
+.container3 .img3 img {
+    width: 90%;
+    height: 69vh;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+.container2 .para2 {
+    font-size: 1rem;
+}
+.container {
+    font-size: 1.2rem;
+}
+.bgimg .top .selector {
+    padding-top: 1rem;
+}
+
+}
+@media (max-width:960px){
+    .logo img {
+        position: absolute;
+        top: 3vh;
+        left: 12vw;
+        width: 14%;
+        height: 1rem;
+    }
+    .container {
+        font-size: .8rem;
+    }
+    .container p{
+        font-size: .9rem;
+    }
+    .container h3{
+        font-size: .9rem;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .container2 .para2 {
+        font-size: 1rem;
+       text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 0%;
+        padding-left: 0rem;
+        width: 100%;
+    }
+    .container2 .img2 {
+        width: 100%;
+        text-align: center;
+    }
+    .container2 .img2 img {
+        width: 74%;
+        /* height: 40vh; */
+        padding-top: 0rem
+    }
+    .container3{
+        flex-direction: column-reverse;
+    }
+    .container3 .img3{
+        width: 100%;
+    }
+    .container3 .img3 img {
+        width: 90%;
+        height: 62vh;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    .container3 .para3 {
+        width: 100%;
+       text-align: center;
+        padding-top: 4rem;
+        padding-bottom: 0;
+    }
+    .container4{
+        flex-direction: column;
+    }
+    .container4 .para4 {
+        padding-top: 3rem;
+        text-align: center;
+        padding-left: 0%;
+    }
+    .container4 .img4 {
+        width: 100%;
+        /* height: 43vh; */
+        padding-bottom: 1rem;
+    }
+    .container5{
+        flex-direction: column-reverse;
+    }
+    .container5 .para5{
+        text-align: center;
+        padding-top: 2rem;
+    }
+    
+    .container5 .img5 {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0%;
+        padding-top: 0%;
+    }
+    .container5 .img5 img {
+        width: 75%;
+    }
+    /* .container6{
+
+    } */
+    .container6 h1 {
+        font-size: 20px;
+        padding-top: 2rem;
+    }
+
+    .footer{
+        gap: 0.8rem;
+    }
+    .links{
+        padding-right: 0;
+    }
+    .links p{
+        left: 4rem;
+    }
+    .selector2{
+        left: 4rem;
+        width: 15%;
+    }
+    .selector2 a{
+        font-size: 12px;
+    }
+
+.qbox {
+    background: #333333;
+    width: 70%;
+    height: 6vh;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.qbox2{
+    background: #333333;
+    width: 70%;
+    height: 6vh;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.qbox3{
+    background: #333333;
+    width: 70%;
+    height: 6vh;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.qbox4{
+    background: #333333;
+    width: 70%;
+    height: 6vh;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.qbox5{
+    background: #333333;
+    width: 70%;
+    height: 6vh;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.qbox6{
+    background: #333333;
+    width: 70%;
+    height: 6vh;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.createbox p{
+    font-size: 12px;
+}
+    .signup {
+        padding-top: 5%;
+        padding-left: 4%;
+}
+.links p {
+    left: 1rem;
+    font-size: 10px;
+}
+.tabs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 50vh;
+    padding-top: 5rem;
+    padding-left: 1rem;
+}
+.tabs ul li {
+    line-height: 8rem;
+    height: 2rem;
+}
+.tabs ul li a{
+    font-size: .7rem;
+    color: #ffffffc7;
+    }
+    .selector2 {
+        width: 23%;
+        padding-top: 12rem;
+    text-align: center;
+    }
+    .selector2 a{
+        font-size: 13px;
+        width: 23%;
+        padding-top: 12rem;
+    }
+}
+
+
+@media (max-width:770px){
+    .logo img {
+        position: absolute;
+        top: 3vh;
+        left: 12vw;
+        height: 1.5rem;
+    }
+    .container {
+        font-size: 1rem;
+    }
+    .container2 .para2 {
+        font-size: 1rem;
+        padding-left: 6rem;
+    }
+    .container2 .img2 img {
+        width: 74%;
+        /* height: 50vh; */
+        /* padding-top: 6rem; */
+    }
+    .container3 .img3 img {
+        width: 90%;
+        
+        /* height: 62vh; */
+        /* padding-top: 4rem; */
+        padding-bottom: 3rem;
+    }
+    .container3 .para3 {
+        font-size: .9rem;
+    }
+    .container4 .para4 {
+        font-size: 0.9rem;
+        padding-top: 7rem;
+    }
+    .container4 .img4 img {
+        width: 78%;
+        /* height: 43vh; */
+        /* padding-bottom: 1rem; */
+    }
+    .container5 .img5 img {
+        width: 90%;
+        /* height: 50vh; */
+        /* padding-top: 3rem;
+        padding-bottom: 2rem; */
+    }
+    .container5 .para5 {
+        font-size: .8rem;
+        padding-top: 9rem;
+    }
+    .footer{
+        gap: 0.8rem;
+    }
+    .links{
+        padding-right: 0;
+    }
+    .links p{
+        left: 4rem;
+    }
+    .selector2{
+        left: 4rem;
+        /* width: 15%; */
+    }
+    .selector2 a{
+        font-size: 12px;
+    }
+
+}
+@media (max-width:600px){
+    .logo img {
+        position: absolute;
+        top: 3vh;
+        left: 12vw;
+        width: 14%;
+        height: 1rem;
+    }
+    .container {
+        font-size: .8rem;
+    }
+    .container p{
+        font-size: .9rem;
+    }
+    .container h3{
+        font-size: .9rem;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .container2 .para2 {
+        font-size: 1rem;
+       text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 0%;
+        padding-left: 0rem;
+        width: 100%;
+    }
+    .container2 .img2 {
+        width: 100%;
+        text-align: center;
+    }
+    .container2 .img2 img {
+        width: 74%;
+        /* height: 40vh; */
+        padding-top: 0rem
+    }
+    .container3{
+        flex-direction: column-reverse;
+    }
+    .container3 .img3{
+        width: 100%;
+    }
+    .container3 .img3 img {
+        width: 90%;
+        /* height: 62vh; */
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    .container3 .para3 {
+        width: 100%;
+       text-align: center;
+        padding-top: 4rem;
+        padding-bottom: 0;
+    }
+    .container4{
+        flex-direction: column;
+    }
+    .container4 .para4 {
+        padding-top: 3rem;
+        text-align: center;
+        padding-left: 0%;
+    }
+    .container4 .img4 {
+        width: 100%;
+        /* height: 43vh; */
+        padding-bottom: 1rem;
+    }
+    .container5{
+        flex-direction: column-reverse;
+    }
+    .container5 .para5{
+        text-align: center;
+        padding-top: 2rem;
+    }
+    
+    .container5 .img5 {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0%;
+        padding-top: 0%;
+    }
+    .container5 .img5 img {
+        width: 75%;
+    }
+    /* .container6{
+
+    } */
+    .container6 h1 {
+        font-size: 20px;
+        padding-top: 2rem;
+    }
+
+    .footer{
+        gap: 0.8rem;
+    }
+    .links{
+        padding-right: 0;
+    }
+    .links p{
+        left: 4rem;
+    }
+    .selector2{
+        left: 4rem;
+        width: 15%;
+    }
+    .selector2 a{
+        font-size: 12px;
+    }
+
+.qbox {
+    background: #333333;
+    width: 70%;
+    height: 6vh;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.qbox2{
+    background: #333333;
+    width: 70%;
+    height: 6vh;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.qbox3{
+    background: #333333;
+    width: 70%;
+    height: 6vh;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.qbox4{
+    background: #333333;
+    width: 70%;
+    height: 6vh;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.qbox5{
+    background: #333333;
+    width: 70%;
+    height: 6vh;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.qbox6{
+    background: #333333;
+    width: 70%;
+    height: 6vh;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.createbox p{
+    font-size: 12px;
+}
+    .signup {
+        padding-top: 5%;
+        padding-left: 4%;
+}
+.links p {
+    left: 1rem;
+    font-size: 10px;
+}
+.tabs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 50vh;
+    padding-top: 5rem;
+    padding-left: 1rem;
+}
+.tabs ul li {
+    line-height: 8rem;
+    height: 2rem;
+}
+.tabs ul li a{
+    font-size: .7rem;
+    color: #ffffffc7;
+    }
+    .selector2 {
+        width: 23%;
+        padding-top: 12rem;
+    text-align: center;
+    }
+    .selector2 a{
+        font-size: 13px;
+        width: 23%;
+        padding-top: 12rem;
+    }
+}
+
+@media (max-width:430px){
+    .logo img {
+        position: absolute;
+        top: 3vh;
+        left: 12vw;
+        width: 14%;
+        height: 1rem;
+    }
+    .container {
+        padding-top: 4rem;
+        font-size: .8rem;
+    }
+    .container p{
+        font-size: .9rem;
+    }
+    .container h3{
+        font-size: .9rem;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .container2 .para2 {
+        font-size: 1rem;
+       text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 0%;
+        padding-left: 0rem;
+        width: 100%;
+    }
+    .container2 .img2 {
+        width: 100%;
+        text-align: center;
+    }
+    .container2 .img2 img {
+        width: 74%;
+        /* height: 40vh; */
+        padding-top: 0rem
+    }
+    .container3{
+        flex-direction: column-reverse;
+    }
+    .container3 .img3{
+        width: 100%;
+    }
+    .container3 .img3 img {
+        width: 90%;
+        /* height: 62vh; */
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    .container3 .para3 {
+        width: 100%;
+       text-align: center;
+        padding-top: 4rem;
+        padding-bottom: 0;
+    }
+    .container4{
+        flex-direction: column;
+    }
+    .container4 .para4 {
+        padding-top: 3rem;
+        text-align: center;
+        padding-left: 0%;
+    }
+    .container4 .img4 {
+        width: 100%;
+        text-align: center;
+        /* height: 43vh; */
+        padding-bottom: 1rem;
+    }
+    .container5{
+        flex-direction: column-reverse;
+    }
+    .container5 .para5{
+        text-align: center;
+        padding-top: 2rem;
+    }
+    
+    .container5 .img5 {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0%;
+        padding-top: 0%;
+    }
+    .container5 .img5 img {
+        width: 75%;
+    }
+    .container6 h1 {
+        font-size: 20px;
+        padding-top: 2rem;
+    }
+
+    .footer{
+        gap: 0.8rem;
+    }
+    .links{
+        padding-right: 0;
+    }
+    .links p{
+        left: 4rem;
+    }
+    .selector2{
+        left: 4rem;
+        width: 15%;
+    }
+    .selector2 a{
+        font-size: 12px;
+    }
+
+.qbox {
+    background: #333333;
+    width: 70%;
+    height: 6vh;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.qbox2{
+    background: #333333;
+    width: 70%;
+    height: 6vh;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.qbox3{
+    background: #333333;
+    width: 70%;
+    height: 6vh;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.qbox4{
+    background: #333333;
+    width: 70%;
+    height: 6vh;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.qbox5{
+    background: #333333;
+    width: 70%;
+    height: 6vh;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.qbox6{
+    background: #333333;
+    width: 70%;
+    height: 6vh;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.createbox p {
+    font-size: px;
+    width: 100%;
+    text-align: center;
+}
+.signup {
+    padding-top: 5%;
+    padding-left: 0%;
+    text-align: center;
+}
+.links p {
+    left: 1rem;
+    font-size: 10px;
+}
+.tabs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 50vh;
+    padding-top: 5rem;
+    padding-left: 1rem;
+}
+.tabs ul li {
+    line-height: 8rem;
+    height: 2rem;
+}
+.tabs ul li a{
+    font-size: .7rem;
+    color: #ffffffc7;
+    }
+    .selector2 {
+        left: 19rem;
+    bottom: 20rem;
+    width: 20%;
+    }
+    .selector2 a{
+        font-size: 13px;
+        width: 23%;
+        padding-top: 12rem;
+    }
+}
+@media (max-width:380px){
+    .container{
+        padding-top: 4rem;
+    }
+    .login #loginbox {
+        padding: 11px 15%;
+    }
+    .login .btn2 {
+        background: red;
+        padding: 6px 10px;
+        border-radius: 4px;
+        border: none;
+        font-size: .8rem;
+    }
+    .container3 .img3{
+        text-align: center;
+    }
+
+    .container3 .img3 img {
+        width: 90%;
+        /* height: 45vh; */
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    .qbox {
+        background: #333333;
+        width: 70%;
+        height: 6vh;
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+    .qbox2{
+        background: #333333;
+        width: 70%;
+        height: 6vh;
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+    .qbox3{
+        background: #333333;
+        width: 70%;
+        height: 6vh;
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+    .qbox4{
+        background: #333333;
+        width: 70%;
+        height: 6vh;
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+    .qbox5{
+        background: #333333;
+        width: 70%;
+        height: 6vh;
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+    .qbox6{
+        background: #333333;
+        width: 70%;
+        height: 6vh;
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+    .selector2 {
+        left: 19rem;
+    bottom: 20rem;
+    width: 20%;
+    }
+    .selector2 a{
+        font-size: 13px;
+        width: 23%;
+        padding-top: 12rem;
+    }
+    
+    .createbox p {
+        font-size: 11px;
+        width: 100%;
+        text-align: center;
+    }
+    .signup {
+        padding-top: 5%;
+        padding-left: 0%;
+        text-align: center;
+    }
+    .links p {
+       width: 50%;
+    }
+
+}
+@media (max-width:330px){
+    .container{
+        padding-top: 4rem;
+    }
+    .selector2 {
+        width: 23%;
+        padding-top: 12rem;
+    }
+    .selector2 a {
+        font-size: 12px;
+        padding-left: 0rem;
+    }
+    .container2 .img2{
+        text-align: center;
+    }
+    .container2 .img2 img {
+        width: 80%;
+        height: 35vh;
+        padding-top: 0rem;
+    }
+    .container3 .img3{
+        text-align: center;
+    }
+    .container3 .img3 img {
+        height: 35vh;
+    }
+    .container4 .img4{
+        text-align: center;
+    }
+    .container4 .img4 img {
+        width: 78%;
+        height: 40vh;
+    }
+    .container5 .img5{
+        text-align: center;
+    }
+    .container5 .img5 img {
+        width: 75%;
+        height: 0%;
+    }
+    .qbox {
+        font-size: 13px;
+        padding: 10px 5px;
+}
+    .qbox2{
+        font-size: 13px;
+        padding: 10px 5px;
+}
+    .qbox3{
+        font-size: 13px;
+        padding: 10px 5px;
+}
+    .qbox4{
+        font-size: 13px;
+        padding: 10px 5px;
+}
+    .qbox5{
+        font-size: 13px;
+        padding: 10px 5px;
+}
+    .qbox6{
+        font-size: 13px;
+        padding: 10px 5px;
+}
+.links p {
+  width: 50%;
+}
+    
+    .createbox p {
+        font-size: 11px;
+        width: 100%;
+        text-align: center;
+    }
+    .signup {
+        padding-top: 5%;
+        padding-left: 0%;
+        text-align: center;
+    }
+    .btns2 {
+        background: red;
+        padding: 5px 10px;
+        border-radius: 3px;
+        border: none;
+        font-weight: 500;
+        font-size: 10px;
+    }
+}
